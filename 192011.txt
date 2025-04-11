@@ -28,6 +28,10 @@ git push origin 7-count-tasks-per-category
 git checkout master
 git branch
 git merge 4-sort-tasks-by-priority
+
+немаше конфликти
+употребена е fast-forward спојување
+
 git add .
 git commit -m "Merge branch '4-sort-tasks-by-priority'"
 git push origin master
