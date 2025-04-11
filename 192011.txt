@@ -1,0 +1,36 @@
+git init
+git remote add origin https://github.com/elena-mihailova/SI_2025_lab1_192032.git
+notepad README.MD
+git add .\README.md
+git commit -m "Initial commit"
+notepad SI2025Lab1Main.java
+git add .\SI2025Lab1Main.java
+git commit -m "Add starter code" 
+git push origin master
+git fetch origin
+git branch -r
+git checkout -b 1-remove-a-task-by-name origin/1-remove-a-task-by-name
+git diff
+git add .\SI2025Lab1Main.java
+git status
+git commit -m "remove a task by name"
+git push origin 1-remove-a-task-by-name
+git checkout -b 4-sort-tasks-by-priority origin/4-sort-tasks-by-priority
+git diff
+git add .\SI2025Lab1Main.java
+git commit -m "sort tasks by priority"
+git push origin 4-sort-tasks-by-priority
+git checkout -b 7-count-tasks-per-category origin/7-count-tasks-per-category
+git diff
+git add .\SI2025Lab1Main.java
+git commit -m "count tasks per category"
+git push origin 7-count-tasks-per-category
+git checkout master
+git branch
+git merge 4-sort-tasks-by-priority
+git add .
+git commit -m "Merge branch '4-sort-tasks-by-priority'"
+git push origin master
+git log --oneline --graph --all
+notepad logs.txt
+notepad 192011.txt

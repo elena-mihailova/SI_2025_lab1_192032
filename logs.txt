@@ -1,0 +1,16 @@
+*   94f7469 (HEAD -> master, origin/master) Merge branch '4-sort-tasks-by-priority' Resolved conflicts and integrated sorting by priority feature
+|\
+| * 2ef5322 (origin/4-sort-tasks-by-priority, 4-sort-tasks-by-priority) sort tasks by priority
+* | 033664d Resolve merge conflicts
+* |   8bb74b0 Merge pull request #10 from elena-mihailova/1-remove-a-task-by-name
+|\ \
+| * | 5bd7081 (origin/1-remove-a-task-by-name, 1-remove-a-task-by-name) remove a task by name
+| |/
+* |   2f77c3d Merge pull request #12 from elena-mihailova/7-count-tasks-per-category
+|\ \
+| |/
+|/|
+| * 697df77 (origin/7-count-tasks-per-category, 7-count-tasks-per-category) count tasks per category
+|/
+* e62e06f Add starter code
+* a4f157e Initial commit
